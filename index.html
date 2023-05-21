@@ -7,58 +7,59 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<!--Bootstrap ranglari:
-1.muted - kulrang;
-2.primary-ko'krang;
-3.success-yashilrang;
-4.info-havorang;
-5.warning-sariqrang;
-6.danger-qzilrang;
-7.secondary-och kulrang;
-8.dark-qora rang;
-9.white(light)-oqrang;
- misol:<p class="text-hohlaganrang^">
- -->
+
+<!--
+Bootstrap ranglari:
+1.muted - kulrang; 2. primary - ko'krang; 3. success - yashilrang;
+4. info - havorang; 5. warning - sariqrang; 6. danger - qizil rang;
+7. secondary - och kulrang; 8. dark - qora rang; 9. white(light) - oq rang;
+-->
+
 <div class="container">
     <div class="row bg-primary">
         <div class="col-md-4">
-            <p class="text-warning bg-danger font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                A, architecto enim eos fugit incidunt inventore modi
-                optio praesentium quas quidem quo reprehenderit sapiente
-                suscipit totam vel veritatis voluptas, voluptatem voluptates?</p>
+            <p class="text-success bg-warning font-weight-bold font-italic text-justify text-uppercase">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus blanditiis, corporis debitis dignissimos, fugiat
+                iste maiores nam, natus non odio omnis placeat possimus quam
+                quis repellendus repudiandae rerum suscipit voluptates?
+            </p>
         </div>
         <div class="col-md-4">
-            <p class="text-primary bg-success font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                A, architecto enim eos fugit incidunt inventore modi
-                optio praesentium quas quidem quo reprehenderit sapiente
-                suscipit totam vel veritatis voluptas, voluptatem voluptates?</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus blanditiis, corporis debitis dignissimos, fugiat
+                iste maiores nam, natus non odio omnis placeat possimus quam
+                quis repellendus repudiandae rerum suscipit voluptates?
+            </p>
         </div>
         <div class="col-md-4">
-            <p class="text-success bg-danger font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                A, architecto enim eos fugit incidunt inventore modi
-                optio praesentium quas quidem quo reprehenderit sapiente
-                suscipit totam vel veritatis voluptas, voluptatem voluptates?</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Accusamus blanditiis, corporis debitis dignissimos, fugiat
+                iste maiores nam, natus non odio omnis placeat possimus quam
+                quis repellendus repudiandae rerum suscipit voluptates?
+            </p>
         </div>
     </div>
 </div>
 
 <div class="container">
-    <div class="row">
+    <div class="row my-5 p-5">
         <div class="col-md-6">
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-success">success</button>
-            <button type="button" class="btn btn-danger">danger</button>
-            <button type="button" class="btn btn-secondary">secondary</button>
+            <button type="button" class="btn btn-primary active">Primary</button>
+            <button type="button" class="btn btn-success disabled">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
         </div>
         <div class="col-md-6">
-            <a href="#" class="btn btn-outline-warning">Warning</a>
+            <a href="#" class="btn btn-outline-warning active">Warning</a>
             <a href="#" class="btn btn-outline-info">Info</a>
             <a href="#" class="btn btn-outline-dark">Dark</a>
             <a href="#" class="btn btn-outline-light">White</a>
         </div>
     </div>
 </div>
-
 
 <script src="js/jQuery.min.js"></script>
 <script src="js/src/popover.js"></script>
